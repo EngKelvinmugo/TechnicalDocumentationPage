@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<link rel="stylesheet" href="css/Documentation.css">
+</head>
+
+<body>
+	<div class="main-body">
+		<nav id="navbar">
+			<header>Documentation Menu</header>
+			<a href="#Intro" class="nav-link">
+				What is C++</a>
+			<a href="#Object" class="nav-link">
+				Objects and Classes</a>
+			<a href="#Inheritance" class="nav-link">
+				Inheritance</a>
+			<a href="#Polymorphism" class="nav-link">
+				Polymorphism</a>
+			<a href="#Abstraction" class="nav-link">
+				Abstraction</a>
+			<a href="#Encapsulation" class="nav-link">
+				Encapsulation</a>
+		</nav>
+
+		<main id="main-doc">
+			<section class="main-section" id="Intro">
+				<header><u>
+					What is C++?</u>
+				</header>
+				<p>
+					
+					C++ is an efficient
+					and powerful language and finds wide use
+					in various GUI platforms, 3D graphics and
+					real-time simulations. Being object-oriented
+					programming like Java, C++ provides
+					the support of inheritance, polymorphism,
+					encapsulation, etc.
+				</p>
+				<p>he “Hello World” program is the first
+					step towards learning any programming
+					language and also one of the simplest
+					programs you will learn.
+					<br><br>Let us now look at the program :<br>
+				</p>
+				<code>
+					#include<iostream>
+					<br>
+					using namespace std;
+					<br>
+					int main()
+					<br>
+						{
+							<br>
+							cout〈〈"Hello World";
+							<br>
+							return 0;
+							<br>
+						}
+				</code>
+				<br>
+				<p>C++ is an Object Oriented Programming Language.
+					<br> The main pillars of Object Oriented
+					Programming are :
+				</p>
+				<ul>
+					<li>Objects and Classes</li>
+					<li>Inheritance</li>
+					<li>Polymorphism</li>
+					<li>Abstraction</li>
+					<li>Encapsulation</li>
+				</ul>
+			</section>
+
+			<section class="main-section" id="Object">
+				<header><u>
+					Objects and Classes</u>
+				</header>
+				<p>
+					Object-oriented programming – As the name
+					suggests uses objects in programming.
+					Object-oriented programming aims to
+					implement real-world entities like
+					inheritance, hiding, polymorphism,
+					etc in programming. 
+				</p>
+				<p><b>Object : </b>An Object is an identifiable
+					entity with some characteristics and behavior.
+					An Object is an instance of a Class. When a
+					class is defined, no memory is allocated but
+					when it is instantiated (i.e. an
+					object is created) memory is allocated.
+					<br>
+					<b>Class : </b>The building block of C++ that
+					leads to Object-Oriented programming is a Class.
+					It is a user-defined data type, which holds its
+					own data members and member functions, which can
+					be accessed & used by creating an instance
+					of that class.
+			</section>
+
+			<section class="main-section" id="Inheritance">
+				<header>
+					<u>Inheritance</u>
+				</header>
+				<p>
+					The capability of a class to derive
+					properties and characteristics from
+					another class is called Inheritance.
+					Inheritance is one of the most important
+					feature of Object Oriented Programming.
+					
+				</p>
+				<p>
+					<b>Mode of Inheritance : </b><br><br>
+
+					<b>Public Mode : </b>If we derive a sub
+					class from a public base class. ss.
+					<br><br>
+					<b>Protected Mode : </b>If we derive a
+					sub class from a Protected base class.
+					Then both public member and protected
+					members of the base class will become
+					protected in derived class.
+					<br><br>
+					<b>Private Mode : </b>If we derive a
+					sub class from a Private base class.
+					Then both public member and protected
+					members of the base class will become
+					Private in derived class.
+					<br><br>
+					<b>Types of Inheritance in C++ : </b>
+					<br><br><br>
+					<b>Single Inheritance :</b> In single
+					inheritance, a class is allowed to inherit
+					from only one class. i.e. one sub class
+					is inherited by one base class only.
+					<br><br>
+					<b>Multiple Inheritance :</b> Multiple
+					Inheritance is a feature of C++ where a
+					class can inherit from more than one
+					classes. i.e one sub class is inherited
+					from more than one base classes.
+					<br><br>
+					<b>Multilevel Inheritance :</b> In this
+					type of inheritance, a derived class is
+					created from another derived class.
+					<br><br>
+					<b>Hieratical Inheritance :</b> In this
+					type of inheritance, more than one sub
+					class is inherited from a single base
+					class i.e. more than one derived class
+					is created from a single base class.
+					<br><br>
+					<b>Hybrid (Virtual) Inheritance :</b>
+					Hybrid Inheritance is implemented by
+					combining more than one type of
+					inheritance.
+					For example: Combining Hierarchical
+					inheritance and Multiple Inheritance.
+				</p>
+			</section>
+
+			<section class="main-section" id="Polymorphism">
+				<header>
+					<u>Polymorphism</u>
+				</header>
+				<p>
+					The word polymorphism means having many
+					forms. In simple words, we can define
+					polymorphism as the ability of a message
+					to be displayed in more than one form.
+					
+					<br>
+					<b>In C++ polymorphism is mainly
+						divided into two types:</b>
+					<br> 1. Compile time Polymorphism<br>
+					2. Runtime Polymorphism
+				</p>
+
+				<p>Compile time polymorphism: This type of
+					polymorphism is achieved by function
+					overloading or operator overloading.
+					<br> Runtime polymorphism: This type
+					of polymorphism is achieved by
+					Function Overriding.
+				</p>
+			</section>
+
+			<section class="main-section" id="Abstraction">
+				<header>
+					<u>Abstraction</u>
+				</header>
+
+				<p>
+					Data abstraction is one of the most
+					essential and important feature of object
+					oriented programming in C++. Abstraction
+					means displaying only essential information
+					and hiding the details. Data abstraction
+					refers to providing only essential information
+					about the data to the outside world,
+					hiding the background details or implementation.
+					
+				</p>
+
+				<p>
+					<b>Abstraction using Classes:</b> We can
+					implement Abstraction in C++ using classes.
+					Class helps us to group data members and member
+					functions using available access specifiers. A
+					Class can decide which data member will be
+					visible to outside
+					world and which is not.
+					<br>
+					<b>Abstraction in Header files:</b> One
+					more type of abstraction in C++ can be
+					header files. For example, consider the
+					pow() method present in math.h header file.
+					Whenever we need to calculate power of a
+					number, we simply call the
+					function pow() present in the math.h header
+					file and pass the numbers as arguments
+					without knowing the underlying algorithm
+					according to which the function is actually
+					calculating power of numbers.
+					<br><br><b>Advantages of Data Abstraction:
+
+					</b><br> 1. Helps the user to avoid writing
+					the low level code.<br> 2. Avoids code
+					duplication and increases reusability.<br>
+					3. Can change internal implementation of
+					class independently without
+					affecting the user.<br> 4. Helps to
+					increase security of an application or program
+					as only important details are
+					provided to the user.
+				</p>
+			</section>
+
+			<section class="main-section" id="Encapsulation">
+				<header>
+					<u>Encapsulation</u>
+				</header>
+				<p>
+					In normal terms Encapsulation is defined
+					as wrapping up of data and information
+					under a single unit. In Object Oriented
+					Programming, Encapsulation is defined as
+					binding together the data and the functions
+					that manipulates them. 
+				</p>
+
+				<p>
+					Encapsulation also lead to data abstraction
+					or hiding. As using encapsulation also hides
+					the data. <br>
+					In C++ encapsulation
+					can be implemented using Class
+					and access modifiers.
+				</p>
+			</section>
+		</main>
+	</div>
+</body>
+
+</html>
